@@ -1,0 +1,3 @@
+#SRC += inc.c
+DYNAMIC_MACRO_ENABLE = no
+TAP_DANCE_ENABLE = yes
