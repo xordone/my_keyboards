@@ -8,6 +8,7 @@
 1. clone qmk firmware 
     git clone https://github.com/qmk/qmk_firmware
 2. add lang_shift and this repo as submodule
+    
     cd qmk_firmware
     
     git submodule add https://github.com/klavarog/lang_shift ./mods
