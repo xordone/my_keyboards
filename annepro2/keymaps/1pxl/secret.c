@@ -1,0 +1,1 @@
+char td1_string[] = "";
