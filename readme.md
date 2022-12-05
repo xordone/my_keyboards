@@ -5,11 +5,22 @@
 
 ### install:
 
-1. add lang_shift as submodule
-
+1. clone qmk firmware 
+    git clone https://github.com/qmk/qmk_firmware
+2. add lang_shift and this repo as submodule
+    cd qmk_firmware
+    
     git submodule add https://github.com/klavarog/lang_shift ./mods
-2. add files into keyboards dir
-3. add secret.c file
+    
+    git submodule add https://github.com/xordone/my_keyboards 
+3. add files into keyboards dir
+    
+    cp ./my_keyboards/* ./keboards
+4. add secret.c file into
 
-    char td1_string[] = "";
-4. see readme for keyboard
+    ./keyboards/winry/winry25tc/keymaps/pxl/secret.c
+    
+    ./keyboards/annepro2/keymaps/1pxl/secret.c
+    
+        char td1_string[] = "";
+5. see readme for keyboard
